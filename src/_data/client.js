@@ -1,13 +1,13 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Amanos",
+    "email": "andrew@amanos.com",
+    "phoneForTel": "(949) 933-9536",
+    "phoneFormatted": "(949) 933-9536",
     "address": {
         "lineOne": "First Address Line",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
+        "city": "Orange",
+        "state": "CA",
         "zip": "80206",
         "country": "US",
         "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
