@@ -979,8 +979,7 @@
   #cs-footer-1862 {
     padding: var(--sectionPadding);
     padding-bottom: 2.5rem;
-    background-color: rgba(191, 179, 158, 0.5);
-    opacity: 0.5;
+    background-color: rgba(191, 179, 158, 0.4);
   }
   #cs-footer-1862 .cs-container {
     width: 100%;
