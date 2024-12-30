@@ -29,7 +29,7 @@
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.7;
+    opacity: 0.3;
     position: absolute;
     display: block;
     top: 0;
@@ -54,7 +54,7 @@
   #hero-82 .cs-title {
     /* 39px - 61px */
     font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
-    font-weight: 700;
+    font-weight: 100;
     line-height: 1.2em;
     text-align: center;
     max-width: 51.8125rem;
@@ -77,13 +77,13 @@
     color: #fff;
   }
   #hero-82 .cs-button-solid {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 3.5rem;
     text-decoration: none;
     font-weight: 700;
     margin: auto;
     color: #fff;
-    padding: 0 1.5rem;
+    padding: 0 5rem;
     background-color: var(--primary);
     border-radius: 0.25rem;
     display: inline-block;
@@ -191,7 +191,7 @@
     width: 100%;
     height: 100%;
     padding: 1em;
-    background-color: rgba(229, 87, 44, 0.9);
+    background-color: rgba(191, 179, 158, 0.5);
     opacity: 0;
     position: absolute;
     display: flex;
