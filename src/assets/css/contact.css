@@ -57,6 +57,7 @@
     line-height: 1.5em;
     font-weight: 700;
     color: var(--headerColor);
+    font-family: 'Amanos';
   }
   #cs-contact #cs-form .cs-label-message {
     /* 32px - 48px */
@@ -87,6 +88,8 @@
   #cs-contact #cs-form .cs-button-solid {
     border: none;
     width: 100%;
+    color: #fff;
+    border-radius: 0.5rem;
   }
   #cs-contact .cs-right-section {
     position: relative;
@@ -110,6 +113,7 @@
     line-height: 1.2em;
     font-weight: 700;
     color: var(--bodyTextColorWhite);
+    font-family: 'Amanos';
   }
   #cs-contact .cs-link {
     position: relative;

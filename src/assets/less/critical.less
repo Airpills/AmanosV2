@@ -59,8 +59,8 @@
 
         .cs-title {
             /* 39px - 61px */
-            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
-            font-weight: 200;
+            font-size: clamp(2.4375rem, 6.4vw, 3rem);
+            font-weight: 100;
             line-height: 1.2em;
             text-align: center;
             max-width: (829/16rem);
@@ -68,13 +68,15 @@
             margin: 0 auto clamp(1rem, 4vw, 1.5rem);
             color: #fff;
             position: relative;
+            font-family: "Amanos";
+
 
 
         }
 
         .cs-text {
             /* 16px - 25px */
-            font-size: clamp(1rem, 1.95vw, 1.5625rem);
+            font-size: clamp(1rem, 1.95vw, 1rem);
             line-height: 1.5em;
             text-align: center;
             width: 100%;
@@ -85,10 +87,12 @@
             margin-bottom: clamp(2.5rem, 4vw, 3rem);
             color: #fff;
             font-weight: 200;
+            font-family: "Amanos";
+
         }
 
         .cs-button-solid {
-            font-size: (24/16rem);
+            font-size: (1.3rem);
             line-height: (56/16rem);
             text-decoration: none;
             font-weight: 300;
@@ -213,6 +217,8 @@
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+                padding: 20px;
+                border-radius: 1.5rem;
             }
         }
 
@@ -224,6 +230,7 @@
             background-color: fade(#BFB39E, 50%);
             opacity: 0;
             position: absolute;
+            border-radius: 0.3em;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -238,6 +245,7 @@
             /* prevents mouse from being able to interact with these elements */
             pointer-events: none;
             transition: opacity 0.3s;
+            padding: 20px;
         }
 
         .cs-icon {

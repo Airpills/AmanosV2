@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #BFB39E;
-    --primaryLight: #ffd675;
+    --primary: #AdAfA0;
+    --primaryLight: #E6E4D8;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -30,6 +30,7 @@
     font-weight: 700;
     color: var(--primary);
     text-align: inherit;
+    font-family: "Amanos";
   }
   .cs-title {
     position: relative;
@@ -106,9 +107,25 @@
     margin: 0;
     overflow-x: hidden;
     padding: 0;
-    font-family: "Lato", Arial, sans-serif;
+    font-family: "MyriadPro", Arial, sans-serif;
     font-size: 100%;
     color: var(--bodyTextColor);
+  }
+  @font-face {
+    font-family: "MyriadPro";
+    src: url(../fonts/MyriadPro-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "MyriadPro";
+    src: url(../fonts/MyriadPro-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Amanos";
+    src: url(../fonts/LT-AMANOS-Regular.woff2);
   }
   *,
   *:before,
@@ -645,7 +662,7 @@
     content: "";
     width: 100%;
     height: 0%;
-    background: #BFB39E;
+    background: #57544B;
     opacity: 1;
     position: absolute;
     display: block;
@@ -669,7 +686,7 @@
     display: none;
   }
   #cs-navigation .cs-logo {
-    width: auto;
+    width: 200px;
     height: 3.75rem;
     /* margin-right auto pushes everything away from it to the right */
     margin: 0 auto 0 0;
@@ -728,6 +745,7 @@
     width: 100%;
     height: 2.5rem;
     background: var(--primary);
+    border-radius: 0.1rem;
     opacity: 0;
     position: absolute;
     display: block;
@@ -758,11 +776,13 @@
     padding: 0 2rem;
     background-color: transparent;
     border: 1px solid var(--primary);
+    border-radius: 0.25rem;
     display: inline-block;
     position: relative;
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
+    font-family: "Amanos";
   }
   #cs-navigation .cs-button-solid:before {
     content: "";
@@ -822,6 +842,7 @@
     color: #fff;
     text-align: center;
     font-weight: 200;
+    font-family: "Amanos";
   }
   #int-hero p {
     display: block;
@@ -895,8 +916,10 @@
     align-items: center;
   }
   #cta-51 .cs-title {
-    color: var(--primary);
+    color: #fff;
     max-width: 100%;
+    font-family: "Amanos";
+    font-size: 2rem;
   }
   #cta-51 .cs-text {
     margin-bottom: 1rem;
@@ -980,7 +1003,7 @@
   #cs-footer-1862 {
     padding: var(--sectionPadding);
     padding-bottom: 2.5rem;
-    background-color: rgba(191, 179, 158, 0.4);
+    background-color: #E6E4D8;
   }
   #cs-footer-1862 .cs-container {
     width: 100%;

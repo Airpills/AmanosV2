@@ -78,7 +78,7 @@
     padding: clamp(1rem, 2.3vw, 1.5rem) 0;
     border: none;
     background: transparent;
-    color: var(--headerColor);
+    color: #221C1C;
     display: block;
     width: 100%;
     position: relative;
@@ -163,6 +163,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 0.5rem;
   }
 }
 /* Tablet - 768px */
