@@ -42,6 +42,7 @@
     /* 404px - 522px */
     max-width: clamp(25.25rem, 30vw, 32.625rem);
     text-align: left;
+    font-family: "MyriadPro";
   }
   #cs-contact #cs-form {
     margin-bottom: 2.5rem;
@@ -75,6 +76,7 @@
     padding-left: 1.25rem;
     font-size: 1rem;
     transition: border 0.3s;
+    font-family: "MyriadPro";
   }
   #cs-contact #cs-form input:hover,
   #cs-contact #cs-form textarea:hover {
@@ -83,7 +85,7 @@
   #cs-contact #cs-form textarea {
     min-height: 7.5rem;
     padding-top: 1.25rem;
-    font-family: inherit;
+    font-family: "MyriadPro";
   }
   #cs-contact #cs-form .cs-button-solid {
     border: none;

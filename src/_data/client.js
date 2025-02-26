@@ -1,6 +1,6 @@
 module.exports = {
     "name": "Amanos",
-    "email": "andrew@amanos.com",
+    "email": "andrew@shopamanos.com",
     "phoneForTel": "(949) 933-9536",
     "phoneFormatted": "(949) 933-9536",
     "address": {
